@@ -83,7 +83,13 @@ display: block;
 
 
 tw-story[tags~="lawn-background"] {  /* the tag added in step 2 */
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/background-example.jpg) center center / cover no-repeat fixed;
+  background-image: url(./images/australis-lawn.jpg);  /* the image added in step 1 */
+  background-size: cover;  /* cover the whole element */
+  background-repeat: no-repeat;  /* do not repeat the background image */
+}
+
+tw-story[tags~="lawn-background"] {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/australis-lawn.jpg) center center / cover no-repeat fixed;
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">window.onload = function () {
     if (!document.getElementById("bg-music")) {
         var audio = document.createElement("audio");
