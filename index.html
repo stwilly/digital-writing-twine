@@ -14,7 +14,7 @@
 tw-story {
   font-family: 'Syne Mono', monospace;
   color: #FFF;
-  background-color: #000;
+  background-color: #0A2B00;
 }
 
 .story-image {
@@ -22,15 +22,23 @@ tw-story {
 }
 
 tw-link, tw-link:link, tw-link:visited, tw-link.visited {
-  color: #FFF;
-  text-decoration: underline;
+  color: #5EE000;
 }
 tw-link:focus, tw-link:hover, tw-link:active, tw-link.visited:hover {
-  color: #FFF;
-  text-decoration: none;
+  color: #C9D600;
+  text-decoration: underline;
 }
 tw-passage {
-  padding-bottom: 200px;}</style><script role="script" id="twine-user-script" type="text/twine-javascript">window.onload = function () {
+  padding-bottom: 200px;}
+
+img { /*this selects all image (img) elements */
+  width: 100%;
+}
+
+img.story-image-smaller {
+  width: 50%;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">window.onload = function () {
     if (!document.getElementById("bg-music")) {
         var audio = document.createElement("audio");
         audio.id = "bg-music";
@@ -58,7 +66,7 @@ tw-passage {
 
 It rapidly [[breaks down]].</tw-passagedata><tw-passagedata pid="4" name="Spring" tags="" position="525,775" size="100,100">Spring, Spring, Spring.
 
-[[&lt;img class=&quot;story-image&quot; src=&quot;./images/pasture.jpg&quot; alt=&quot;pasture&quot; /&gt;-&gt;breathe deep]]</tw-passagedata><tw-passagedata pid="5" name="breathe deep" tags="" position="525,900" size="100,100">Breathe deep and remember.</tw-passagedata></tw-storydata>
+[[&lt;img class=&quot;story-image-smaller&quot; src=&quot;./images/pasture.jpg&quot; alt=&quot;pasture&quot; /&gt;-&gt;breathe deep]]</tw-passagedata><tw-passagedata pid="5" name="breathe deep" tags="" position="525,900" size="100,100">Breathe deep and remember.</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
