@@ -9,13 +9,38 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Green Leaf Volatiles.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Green Leaf Volatiles" startnode="2" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="F038C829-ED8C-4069-9C39-10984E5F4652" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="breaks down" tags="" position="550,650" size="100,100">It&#39;s what you smell when you smell freshly cut grass. It&#39;s the proper name of that smell.</tw-passagedata><tw-passagedata pid="2" name="Green Leaf Volatiles" tags="" position="400,400" size="100,100">(text-style:&quot;expand&quot;)[&#39;&#39;Green Leaf Volatiles&#39;&#39;]
+<tw-storydata name="Green Leaf Volatiles" startnode="2" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="F038C829-ED8C-4069-9C39-10984E5F4652" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+tw-story {
+  font-family: 'Syne Mono', monospace;
+  color: #FFF;
+  background-color: #000;
+}
+
+.story-image {
+  width: 100%;
+}
+
+tw-link, tw-link:link, tw-link:visited, tw-link.visited {
+  color: #FFF;
+  text-decoration: underline;
+}
+tw-link:focus, tw-link:hover, tw-link:active, tw-link.visited:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+tw-passage {
+  padding-bottom: 200px;}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="breaks down" tags="" position="550,650" size="100,100">It&#39;s what you smell when you smell fresh-cut grass. (click-append: &quot;fresh-cut grass.&quot;) [ It&#39;s the proper name of that smell.]
+
+(t8n-delay: 3s) + (t8n: &quot;fade&quot;) [You think of [[Spring]].]</tw-passagedata><tw-passagedata pid="2" name="Green Leaf Volatiles" tags="" position="400,400" size="100,100">(text-style:&quot;expand&quot;)[&#39;&#39;Green Leaf Volatiles&#39;&#39;]
 
 [[Mow the lawn]].</tw-passagedata><tw-passagedata pid="3" name="Mow the lawn" tags="" position="575,475" size="100,100">//cis//-3-Hexenal (click-replace: &quot;cis-3-Hexenal&quot;) [CH(text-style:&quot;subscript&quot;)[3]CH(text-style:&quot;subscript&quot;)[2]CH = CHCH(text-style:&quot;subscript&quot;)[2]CHO]
 
 (click-replace: &quot;CH3CH2CH = CHCH2CHO&quot;) [Leaf aldehyde]
 
-It rapidly [[breaks down]].</tw-passagedata></tw-storydata>
+It rapidly [[breaks down]].</tw-passagedata><tw-passagedata pid="4" name="Spring" tags="" position="525,775" size="100,100">Spring, Spring, Spring.
+
+&lt;img class=&quot;story-image&quot; src=&quot;./images/pasture.jpg&quot; alt=&quot;pasture&quot;/&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
